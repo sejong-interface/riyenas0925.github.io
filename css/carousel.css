@@ -98,7 +98,7 @@ body {
 /* Carousel base class */
 
 .carousel {
-    height: 300px;
+    height: 250px;
     margin-bottom: 60px;
 }
 
@@ -110,10 +110,12 @@ body {
 
 /* Declare heights because of positioning of img element */
 
+/*
 .carousel .item {
-    height: 300px;
+    height: 250px;
     background-color: #777;
 }
+*/
 
 .carousel-inner > .item > img {
     position: absolute;
@@ -133,6 +135,7 @@ body {
     background: transparent !important;
     color: #fff !important;
 }
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -202,8 +205,17 @@ body {
     }
 
     .carousel {
-        height: 700px;
-        margin-bottom: 60px;
+        height: 100vh;
+        width: 100%;
+        overflow: auto;
+    }
+    
+    .carousel .carousel-inner {
+        height: 100%;
+    }
+    
+    .back1_font {
+        font-size: 80px
     }
 
 
@@ -213,7 +225,9 @@ body {
     }
 
     .navbar ul li {
-        padding: 25px 50px;
+        margin-top: 27px;
+        margin: 27px;
+        padding: 0px 15px;
     }
 
     /* Bump up size of carousel content */
@@ -228,8 +242,3 @@ body {
     }
 }
 
-@media (min-width: 992px) {
-    .featurette-heading {
-        margin-top: 120px;
-    }
-}
