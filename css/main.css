@@ -76,6 +76,7 @@ body {
 .navbar ul li {
     list-style-type: none;
     display: inline-block;
+    border-radius: 10px;
 }
 
 
@@ -96,7 +97,7 @@ body {
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-.carousel{
+.carousel {
     margin-top: 50px;
 }
 
@@ -104,6 +105,7 @@ body {
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
+
 .marketing {
     padding-top: 50px;
 }
@@ -123,7 +125,64 @@ body {
 }
 
 
+
 @media (min-width: 768px) {
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 0px;
+        height: 100px;
+    }
+
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+
+    }
+
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+        background: transparent;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        font-size: 20px;
+    }
+
+    .back1_font {
+        font-size: 80px
+    }
+
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+
+    .navbar ul li {
+        margin-top: 27px;
+        padding: 0px 15px;
+    }
+
+    .navbar-brand {
+        width: 130px;
+        height: 100px;
+        background-image: url(../images/inf_logo.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .carousel {
+        margin-top: 0px;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+
+@media (min-width: 1024px) {
     /* Navbar positioning foo */
     .navbar-wrapper {
         margin-top: 0px;
@@ -170,6 +229,9 @@ body {
         background-position: center;
     }
 
+    .carousel {
+        margin-top: 0px;
+    }
 
     .featurette-heading {
         font-size: 50px;
