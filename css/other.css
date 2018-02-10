@@ -94,12 +94,17 @@ body {
     text-align: center;
 }
 
+.space {
+    height: 50px;
+}
 
 @media (min-width: 768px) {
     /* Navbar positioning foo */
     .navbar-wrapper {
         margin-top: 0px;
         height: 100px;
+        background: #495057;
+
     }
 
     .navbar-wrapper .container {
@@ -140,6 +145,10 @@ body {
         background-size: contain;
         background-position: center;
     }
+
+    .space {
+        height: 100px;
+    }
 }
 
 
@@ -160,6 +169,7 @@ body {
     .navbar-wrapper .navbar {
         padding-right: 0;
         padding-left: 0;
+        background: transparent;
     }
 
     .navbar-inverse .navbar-nav > li > a {
@@ -184,5 +194,9 @@ body {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
+    }
+
+    .space {
+        height: 100px;
     }
 }
