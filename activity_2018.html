@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Interface</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/sidebar.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <div class="navbar-wrapper" id="nav">
+        <div class="container">
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                        <a class="navbar-brand" href="index.html"></a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="introduce.html">소개</a></li>
+                            <li><a href="calendar.html">일정</a></li>
+                            <li><a href="activity.html">활동</a></li>
+                            <li><a href="notice.html">자료실</a></li>
+                            <li><a href="question.html">FAQ</a></li>
+
+                            <!--
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About<span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">공지</a></li>
+                                    <li><a href="#">게시판</a></li>
+                                </ul>
+                            </li>
+    -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Activity</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">&nbsp;  프로그래밍 전시회</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li><a href="activity_2017.html">2017</a></li>
+                        <li><a href="activity_2018.html">2018</a></li>
+                        <li><a href="activity_2019.html">2019</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="activity_study.html">&nbsp;  스터디</a>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">&nbsp;  방학프로젝트</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li><a href="activity_vacation.html">인터페이스 홈페이지</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="activity_MT.html">&nbsp;  MT</a>
+                </li>
+                <li>
+                    <a href="activity_ath.html">&nbsp;  체육대회</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+
+            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                                <i class="glyphicon glyphicon-align-left"></i>
+                                <span>Toggle Sidebar</span>
+                            </button>
+            <div class="row featurette">
+                <div class="col-md-12">
+                    <h2 class="featurette-heading">프로그래밍 전시회</h2>
+                    <p class="lead">
+                        18년도에는 '게임'을 주제로 프로그래밍 전시회를 진행하였습니다.</p>
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading"> 배틀 두더지 </h2>
+                    <p class="lead"> 유니티를 이용하여 만든, 두더지 FPS 게임</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive center-block" img src="images/aaa.png" alt="Generic placeholder image" style="width: 35%">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">아두이노 컨트롤러 FPP 게임<span class="text-muted"></span></h2>
+                    <p class="lead">아두이노로 만든 게임</p>
+                </div>
+                <div class=" col-md-5">
+                    <img class="featurette-image img-responsive center-block" img src="images/aaa.png" alt="Generic placeholder image" style="width: 35%">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">여행지 추천 게임<span class="text-muted"></span></h2>
+                    <p class="lead">안드로이드로 만든 어플</p>
+                </div>
+                <div class=" col-md-5">
+                    <img class="featurette-image img-responsive center-block" img src="images/aaa.png" alt="Generic placeholder image" style="width: 35%">
+                </div>
+            </div>
+
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">탑 쌓기 </h2>
+                    <p class="lead">유니티를 이용하여 만든 새 쌓기 게임</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive center-block" img src="images/aaa.png" alt="Generic placeholder image" style="width: 35%">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Catch me if you can</h2>
+                    <p class="lead">유니티를 이용하여 만든 2인용 게임</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive center-block" img src="images/aaa.png" alt="Generic placeholder image" style="width: 35%">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">가위바위보 동전 게임</h2>
+                    <p class="lead">아두이노를 이용하여 만든 게임</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive center-block" img src="images/aaa.png" alt="Generic placeholder image" style="width: 35%">
+                </div>
+            </div>
+
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#sidebar").mCustomScrollbar({
+                    theme: "minimal"
+                });
+
+                $('#sidebarCollapse').on('click', function() {
+                    $('#sidebar, #content').toggleClass('active');
+                    $('.collapse.in').toggleClass('in');
+                    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                });
+            });
+
+        </script>
+
+
+</body>
+
+</html>
